@@ -10,13 +10,16 @@ function walkToPark(dogName, dogBreed) {
 }
 
 function throwFrisbee(dogName, dogBreed) {
-  return `Walk to the park with ${dogName} the ${dogBreed}`;
+  return `Throw the frisbee for ${dogName} the ${dogBreed}`;
 }
+console.log("Throw the frisbee for Byron the poodle");
+console.log("Walk home with Byron the poodle");
+console.log("Unleash Byron the poodle");
 
 function walkHome(dogName, dogBreed) {
-  return `Walk to the park with ${dogName} the ${dogBreed}`;
+  return `Walk home with ${dogName} the ${dogBreed}`;
 }
 
 function unleashDog(dogName, dogBreed) {
-  return `Walk to the park with ${dogName} the ${dogBreed}`;
+  return `Unleash ${dogName} the ${dogBreed}`;
 }
