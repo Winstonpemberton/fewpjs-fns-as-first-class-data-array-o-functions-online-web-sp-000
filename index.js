@@ -12,3 +12,11 @@ function walkToPark(dogName, dogBreed) {
 function throwFrisbee(dogName, dogBreed) {
   return `Walk to the park with ${dogName} the ${dogBreed}`;
 }
+
+function walkHome(dogName, dogBreed) {
+  return `Walk to the park with ${dogName} the ${dogBreed}`;
+}
+
+function unleashDog(dogName, dogBreed) {
+  return `Walk to the park with ${dogName} the ${dogBreed}`;
+}
