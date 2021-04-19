@@ -24,5 +24,5 @@ function unleashDog(dogName, dogBreed) {
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(dogName, dogBreed) {
-    routine.map(func => func(dogName, dogBreed))
+  return  routine.map(func => func(dogName, dogBreed))
   }
